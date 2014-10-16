@@ -5,8 +5,8 @@ http://p3.hemadri.me
 Developer's Best Friend is laravel based project which helps you in generating specified numbers of 
 random paragraphs and users. 
 
-Project starts with landing page which have both tools namely : Lorem Ipsum Generator for generating 
-random paragraphs and Random users generator for generating random user profiles. 
+Project starts with landing page which have both tools namely : "Lorem Ipsum Generator"-- for generating 
+random paragraphs and "Random users generator"-- for generating random user profiles. 
 Maximum no of users or paragraphs that can be generated are 99.
 
 ##Lorem Ipsum Generator
