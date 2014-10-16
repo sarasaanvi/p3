@@ -13,5 +13,19 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
+	//return "Home Page";
+});
+
+
+Route::post('/para', function(){
+	
+	$inputs =  Input::all();
+    return View::make('para')->with('inputs', $inputs);
+	//return View::make('para');
+});
+Route::post('/user', function()
+{
+	$inputs =  Input::all();
+	return View::make('user')->with('inputs', $inputs);
 });
