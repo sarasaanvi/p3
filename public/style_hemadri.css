@@ -1,0 +1,33 @@
+body {
+    
+	background: #C7C1C1;
+	color: #7D775C;
+	float: left;
+}
+#container{
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 70px;
+	background: #DBCFFA;
+	color: #7D775C;
+	padding: 10px;
+	float: left;
+}
+
+form {
+  
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+}
+
+h1 { 
+	font: italic bold 2.8em georgia, sans-serif;
+	letter-spacing: 1px; 
+	text-align:center;
+}
+p { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+}
