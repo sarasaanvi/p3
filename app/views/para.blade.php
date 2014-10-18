@@ -5,9 +5,7 @@
 @stop
 
 @section('content')
-	<h1>Welcome to Developer's Best Friend</h1>
-	<br>
-	<h2>Lorem Ipsum Generator</h2>
+	<h2>Your Paragraphs are here...!!!</h2>
 	<p>	
 		<?php
 			$para = $inputs["paras"];

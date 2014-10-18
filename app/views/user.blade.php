@@ -6,9 +6,7 @@
 
 
 @section('content')
-	<h1>Welcome to Developer's Best Friend</h1>
-	<br>
-	<h2>Random Users Generator</h2>
+	<h2>Your Users are here...!!!</h2>
 	<p>	
 		<?php
 			$users = $inputs["users"];			
@@ -27,3 +25,4 @@
 			}
 		?>
 	</p>
+@stop
