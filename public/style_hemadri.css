@@ -12,11 +12,11 @@ body {
 	float: left;
 }
 
-#header{
-	
+#header{	
 	margin-left: 70px;
 	display: inline;
 	float: left;
+	text-align: left;
 }
 }
 form {
@@ -35,4 +35,11 @@ p {
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	text-align: left;
+}
+img {
+	width:150px;
+	height:150px;	
+	display: inline;
+	float: left;
+	margin-left: 70px;
 }
