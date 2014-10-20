@@ -7,22 +7,15 @@
 
 @section('content')
 	<h2>Your Users are here...!!!</h2>
-	<p>	
-		<?php
-			$users = $inputs["users"];			
-			//verification that no is an integer and within 99
-			if (is_numeric($users) and (int)$users <=99 and (int)$users >0) {
-				$faker = Faker\Factory::create();
-				for ($i=0; $i < $users; $i++) {
-					echo $faker->name, "<br />";
-					echo $faker->address, "<br />";
-					echo $faker->text, "<br />";
-					echo "<br />";
-					echo "<br />";					 
-				}	
-			} else {
-				echo "Invalid input for no of users";
-			}
-		?>
-	</p>
+	@foreach ($users_data as $user_data)
+		<p>
+			Name : {{ $user_data->name }}
+			<br>
+			Address : {{ $user_data->address }}
+			<br>
+			Text : {{ $user_data->text }}
+			<br>
+		</p>
+	@endforeach
+
 @stop
