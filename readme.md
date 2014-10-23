@@ -21,7 +21,8 @@ such as font, typography, and layout.
 Create random user data for your applications. Like Lorem Ipsum, but for people.
 
 ###Demo information:
-A recorded demo link will be provided featuring the its functionality and technical details.
+A recorded demo link is provided below featuring the its functionality and technical details.
+http://www.screencast.com/users/hemadri123/folders/Harvard_projects_demo/media/47858f89-7b7b-4099-a277-3cabfbbec530
 
 ###Any details the instructor or TA needs to know, for example, test credentials.
 Not applicable for P3 Project Assignment.
